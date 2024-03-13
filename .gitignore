@@ -1,19 +1,20 @@
-# Dependency directories
-node_modules/
-jspm_packages/
 
+
+
+
+
+
+# Dependency directories
 # dotenv environment variables file
 .env
-backend/dist/
-
-
-dist
-tsconfig.tsbuildinfo
-
-tests-e2e/cypress/screenshots/
-tests-e2e/cypress/videos/
-
 .next
 .vercel
-
+.vscode/
 __generated__
+backend/dist/
+dist
+jspm_packages/
+node_modules/
+tests-e2e/cypress/screenshots/
+tests-e2e/cypress/videos/
+tsconfig.tsbuildinfo

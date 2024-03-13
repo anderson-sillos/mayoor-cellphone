@@ -5,7 +5,7 @@ export async function getStaticTranslations({ req, res }) {
   return {
     props: {
       ...(await serverSideTranslations(
-        getCookie("language", { req }) ?? req.locale ?? "en",
+        getCookie("language", { req }) ?? req.locale ?? "pt-BR",
         ["common"],
         null
       )),

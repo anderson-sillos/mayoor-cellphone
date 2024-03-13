@@ -20,6 +20,7 @@ export const LanguageSwitch: React.FC = () => {
       content={
         <Button.Group>
           {[
+            { code: "pt-BR", languageName: "Português do Brasil" },
             { code: "en", languageName: "English" },
             { code: "cs", languageName: "Čeština" },
           ].map(({ code, languageName }) => (

@@ -10,8 +10,8 @@ module.exports = {
   },
   debug: process.env.NODE_ENV === "development",
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", "cs"],
+    defaultLocale: "pt-BR",
+    locales: ["en", "cs", "pt-BR"],
   },
   serializeConfig: false,
   use: typeof window !== "undefined" ? [ChainedBackend] : [],
